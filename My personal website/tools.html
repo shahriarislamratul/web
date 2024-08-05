@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tools</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="game.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <h1 class="name">shahriar_islam_ratul.web</h1>
+      <li class="hideOnMobile"><a href="index.html">Home</a></li>
+      <li class="hideOnMobile"><a href="game.html">Games</a></li>
+      <li class="hideOnMobile"><a href="tools.html">Tools</a></li>
+      <li class="hideOnMobile"><a href="about.html">About</a></li>
+      <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+      <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+  <div class="sidebar">
+    <ul>
+      <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="game.html">Games</a></li>
+      <li><a href="tools.html">Tools</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+  
+  <div class="container">
+    <section>
+      <div class="game-box">
+        <div class="game-image">
+          <img src="password-genarator.jpg" alt="AUTO PASSWORD GENARATOR">
+          <video src="password-genarator.mp4" muted></video>
+        </div>
+        <div class="game-info">
+          
+<h3>Password Generator</h3>
+<p>You could generate a strong password.Here you could customize capital latter,small latter, number and symbols.</p>
+          <br>
+          <button id="apg" class="play-button">Play</button>
+        </div>
+  
+  </div>
+
+  <script>
+    document.getElementById('apg').addEventListener('click', function() {
+window.location.href = 'https://shahriarislamratul.github.io/ai_password_generator/';
+});
+
+</script>
+<script src="main.js"></script>
+
+
+</body>
+</html>
